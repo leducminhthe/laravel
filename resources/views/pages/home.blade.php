@@ -33,4 +33,7 @@
     @endforeach
 </div><!--features_items-->
 {{ $all_product->links() }}
+<script>
+    console.log('Hello');
+</script>
 @endsection
