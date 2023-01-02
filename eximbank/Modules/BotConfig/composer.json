@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/botconfig",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\BotConfig\\Providers\\BotConfigServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BotConfig\\": ""
+        }
+    }
+}

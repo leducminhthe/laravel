@@ -1,0 +1,309 @@
+.left_section:last-child {
+    border-bottom: 0;
+}
+
+/* --- Dashboard --- */
+.card_dash {
+    background: #fff;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+    padding: 20px;
+}
+
+.card_dash_left {
+    float: left;
+}
+
+.card_dash_right {
+    float: right;
+    padding: 15px 0;
+}
+
+.card_dash_right img {
+    width: 70px;
+}
+
+.card_dash_left h5 {
+    font-size: 16px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.card_dash_left h2 {
+    font-size: 24px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.card_dash_left span {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    background: #efefef;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.course-overlay:hover {
+    /* background-image: linear-gradient(transparent, rgba(51, 51, 51, 0.4) 90%); */
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.allvperf {
+    float: left;
+    width: 100%;
+    padding-top: 17px;
+}
+
+.crse-perf-left {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #686f7a;
+    text-align: left;
+}
+
+.crsedt145 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 26px;
+}
+
+.cr1fot50 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    color: #333;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.cr1fot50:hover {
+    color: #333 !important;
+    text-decoration: underline !important;
+}
+
+.cr1fot50:first-child {
+    padding-top: 0;
+}
+
+.cr1fot50:last-child {
+    padding-bottom: 0;
+}
+
+.new_links10 {
+    display: block;
+    padding: 15px 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #333;
+    text-align: left;
+    border-bottom: 1px dashed #efefef;
+}
+
+.new_links10:first-child {
+    padding-top: 0;
+}
+
+.new_links10:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.new_links10:hover {
+    text-decoration: underline !important;
+    color: #333;
+}
+
+.table-responsive {
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    overflow-x: inherit;
+}
+table {
+    margin: 0px auto 0px;
+    font-size: 14px;
+    width: 100%;
+}
+.gray-s {
+    font-size: 18px;
+    color: #686f7a;
+    margin-right: 5px;
+}
+.gray-s:last-child {
+    margin-right: 0;
+}
+.datepicker--cell.-selected-,
+.datepicker--cell.-selected-.-current- {
+    color: #fff;
+    background: #ed2a26 !important;
+}
+.datepicker--day-name {
+    color: #ed2a26 !important;
+}
+.datepicker--cell.-current- {
+    color: #ed2a26 !important;
+}
+.datepicker {
+    background: #fff !important;
+    border: 1px solid #e6e6e6 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 3px !important;
+    box-sizing: content-box;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #333 !important;
+}
+.promotion_tab {
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.promotion_tab img {
+    width: 200px;
+}
+.promotion_tab h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.promotion_tab p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #686f7a;
+    text-align: center;
+    line-height: 26px;
+}
+.analysis_card {
+    background: #fff !important;
+    border: 1px solid #efefef !important;
+    border-radius: 10px !important;
+    margin-top: 30px;
+    padding: 10px;
+}
+.analysis_card h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    text-align: left;
+    line-height: 26px;
+    margin-top: 0;
+}
+.analysis_card p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #686f7a;
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.analysis_card .chartjs-wrapper {
+    height: 100px;
+}
+.analysis_card .card-header {
+    padding: 1.2rem 2rem;
+    margin-bottom: 0;
+    background-color: #fff !important;
+    border-bottom: 1px solid #efefef !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+.analysis_card .card-header h2 {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-family: "Roboto", sans-serif !important;
+    color: #333 !important;
+}
+.type-name {
+    display: block;
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+.analysis_card .nav-tabs .nav-item.show .nav-link,
+.analysis_card .nav-tabs .nav-link.active {
+    color: #333 !important;
+    background-color: #fff !important;
+    border-color: transparent #efefef #fff !important;
+    border: 1px solid;
+}
+.analysis_card .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #686f7a;
+    padding-top: 30px;
+    border-radius: 0 !important;
+    margin-left: -1px;
+}
+.analysis_card .nav-link:hover {
+    color: #333 !important;
+    background-color: #fff !important;
+    border-color: transparent #efefef #fff !important;
+    border: 1px solid;
+}
+.analysis_card .card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid #efefef !important;
+}
+.all_msg_bg {
+    background: #fff;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+.all__noti5 {
+    padding: 17px !important;
+}
+.t-heading {
+    font-weight: 400 !important;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 5px !important;
+    line-height: 26px;
+    color: #686f7a !important;
+    text-align: left;
+}

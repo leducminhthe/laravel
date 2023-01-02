@@ -1,0 +1,14 @@
+{
+    "name": "TargetManager",
+    "alias": "targetmanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\TargetManager\\Providers\\TargetManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

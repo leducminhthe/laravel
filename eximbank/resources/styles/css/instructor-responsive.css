@@ -1,0 +1,111 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .option_links {
+        padding: 10px 3px !important;
+        font-size: 18px !important;
+    }
+    .opts_account img {
+        margin-left: 5px !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .menu.dropdown_mn {
+        margin-right: -43px !important;
+    }
+
+    .noti_count {
+        right: 0 !important;
+    }
+    .table-responsive {
+        width: 100%;
+        overflow-y: hidden;
+    }
+    .reviews_left {
+        margin-bottom: 50px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main_logo {
+        margin-left: 10px !important;
+    }
+    .reviews_left {
+        margin-bottom: 50px;
+    }
+    .hf_img {
+        width: 100% !important;
+        float: left;
+        position: relative;
+    }
+    .table-responsive {
+        width: 100%;
+        overflow-y: hidden;
+    }
+
+    .message-inner-dt > p {
+        width: 100% !important;
+    }
+
+    .reviews_left {
+        margin-bottom: 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main_logo {
+        margin-left: 10px !important;
+    }
+
+    .search120 {
+        display: none;
+        margin-left: 0 !important;
+    }
+    .table-responsive {
+        width: 100%;
+        overflow-y: hidden;
+    }
+    .reviews_left {
+        margin-bottom: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .logo img {
+        width: 200px;
+        text-align: center;
+        margin-top: 10px;
+        float: none;
+    }
+
+    .wrapper__minify {
+        margin-left: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px !important;
+    }
+
+    .hf_img {
+        width: 40% !important;
+    }
+    .container-fluid {
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+}
+@media (max-width: 375px) {
+    .header_right ul li:nth-child(1) {
+        display: none !important;
+    }
+}

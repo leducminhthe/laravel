@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Requests\DailyTrainingUserLikeCommentVideo;
+
+use Illuminate\Foundation\Http\FormRequest;
+use Orion\Http\Requests\Request;
+
+class DailyTrainingUserLikeCommentVideoRequest extends Request
+{
+    public function commonRules(): array
+    {
+        return [
+            'video_id' => 'required|exists:el_daily_training_video,id',
+            'user_id' => 'required|exists:el_profile,user_id',
+            'comment_id' => 'required|exists:el_daily_training_user_comment_video,id',
+            'like' => 'nullable|integer',
+            'dislike' => 'nullable|integer',
+        ];
+    }
+}

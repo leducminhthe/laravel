@@ -1,0 +1,175 @@
+.theme-dark .btn-white {
+  background-color: #000000 !important;
+  color: #dee2e6;
+}
+.theme-dark #homepage {
+  background: #2d3032 !important;
+}
+.theme-dark #homepage .header {
+  background: rgb(255, 255, 255);
+}
+.theme-dark #homepage .header .text-white {
+  color: #dee2e6 !important;
+}
+.theme-dark #homepage .header .page_title {
+  color: #dee2e6;
+}
+.theme-dark #homepage .bg-white {
+  background: #3a3e42 !important;
+}
+.theme-dark #homepage .wrapped_item_mobile {
+  background: #3a3e42 !important;
+}
+.theme-dark #homepage .wrapped_item_mobile a p {
+  color: #dee2e6 !important;
+}
+.theme-dark #homepage .card {
+  background: #3a3e42 !important;
+  color: #dee2e6;
+}
+.theme-dark #homepage .card .card-body {
+  color: #dee2e6;
+}
+.theme-dark #homepage .card .card-body .title {
+  color: #dee2e6;
+}
+.theme-dark #homepage .card .card-body span img {
+  filter: invert(1);
+}
+.theme-dark #homepage .tab-content .tab-pane {
+  background: #3a3e42;
+  color: #dee2e6;
+}
+.theme-dark #homepage .tab-content .tab-pane a, .theme-dark #homepage .tab-content .tab-pane p {
+  color: #dee2e6;
+}
+.theme-dark #homepage .not_found {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_survey .page_title {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_survey .info p {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_training_process .info {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_training_process .info a {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_training_process .list-group img {
+  filter: invert(1);
+}
+.theme-dark #homepage #news-page-mobile .hot_public_title strong {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .get_hot_main_new {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .get_hot_main_new .title_main_new strong {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .get_hot_news {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .get_hot_news .title_hot_new strong {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .title_cate_left .title_name strong {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .hot_new_cate_left {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .hot_new_cate_left .link_hot_new_left strong {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .more {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news-page-mobile .news_tab_content .card .title_hot_new_left {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news .content_new_mobile p {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news .content_new_mobile p a {
+  color: #dee2e6;
+}
+.theme-dark #homepage #news .list-group-item {
+  background: #3a3e42;
+}
+.theme-dark #homepage #news .list-group-item .title_hot_new_left {
+  color: #dee2e6;
+}
+.theme-dark #homepage #libraries .title_type {
+  color: #dee2e6;
+}
+.theme-dark #homepage .detail_library p,
+.theme-dark #homepage .detail_library div,
+.theme-dark #homepage .detail_library .title,
+.theme-dark #homepage .detail_library .description {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_forum .category_title {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_forum .title_category_child a {
+  color: #dee2e6;
+}
+.theme-dark #homepage .forum_topic {
+  color: #dee2e6;
+}
+.theme-dark #homepage .forum_topic .title a {
+  color: #dee2e6;
+}
+.theme-dark #homepage .forum_topic .total_views,
+.theme-dark #homepage .forum_topic .total_comment {
+  color: #dee2e6;
+}
+.theme-dark #homepage .forum_thread {
+  color: #dee2e6;
+}
+.theme-dark #homepage .forum_thread .text-secondary {
+  color: #dee2e6 !important;
+}
+.theme-dark #homepage .forum_thread .commit_thread span {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_promotion {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_promotion .list-group-item {
+  margin-bottom: 5px;
+  background: #3a3e42;
+}
+.theme-dark #homepage .wrraped_promotion .list-group-item button {
+  background: unset;
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_edit_survey {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_edit_survey .table tbody tr th {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_attendance,
+.theme-dark #homepage #daily_training_mobile,
+.theme-dark #homepage #detail-daily,
+.theme-dark #homepage .wrraped_calendar,
+.theme-dark #homepage .wrraped_approve_course {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_daily_training .title_daily_video a {
+  color: #dee2e6;
+}
+.theme-dark #homepage .wrraped_career_roadmap .list-group-item {
+  background: #3a3e42;
+}
+.theme-dark #homepage .wrraped_calendar a {
+  color: #dee2e6 !important;
+}
+.theme-dark .text-muted {
+  color: #dee2e6 !important;
+}

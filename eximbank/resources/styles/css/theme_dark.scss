@@ -1,0 +1,242 @@
+$nightModeBackground: #2d3032;
+$colorBackground: #3a3e42;
+$text: #dee2e6;
+.theme-dark {
+    .btn-white {
+        background-color: #000000 !important;
+        color: $text;
+    }
+    #homepage {
+        background: $nightModeBackground !important;
+        .header {
+            background: rgba(255, 255, 255, 1);
+            .text-white {
+                color: $text !important;
+            }
+            .page_title {
+                color: $text;
+            }
+        }
+        .bg-white {
+            background: $colorBackground !important;
+        }
+        .wrapped_item_mobile {
+            background: $colorBackground !important;
+            a {
+                p {
+                    color: $text !important;
+                }
+            }
+        }
+        .card {
+            background: $colorBackground !important;
+            color: $text;
+            .card-body {
+                color: $text;
+                .title {
+                    color: $text;
+                }
+                span {
+                    img {
+                        filter: invert(1);
+                    }
+                }
+            }
+        }
+        .tab-content {
+            .tab-pane {
+                background: $colorBackground;
+                color: $text;
+                a,p {
+                    color: $text;
+                }
+            }
+        } 
+        .not_found {
+            color: $text;
+        }
+        .wrraped_survey {
+            .page_title {
+                color: $text;
+            }
+            .info {
+                p {
+                    color: $text;
+                }
+            }
+        }
+        .wrraped_training_process {
+            .info {
+                color: $text;
+                a {
+                    color: $text;
+                }
+            }
+            .list-group {
+                img {
+                    filter: invert(1);
+                }
+            }
+        }
+        #news-page-mobile {
+            .hot_public_title {
+                strong {
+                    color: $text;
+                }
+            }
+            .get_hot_main_new {
+                color: $text;
+                .title_main_new  {
+                    strong {
+                        color: $text;
+                    }
+                }
+            }
+            .get_hot_news {
+                color: $text;
+                .title_hot_new {
+                    strong {
+                        color: $text;
+                    }
+                }
+            }
+            .title_cate_left {
+                .title_name {
+                    strong {
+                        color: $text;
+                    }
+                }
+            }
+            .hot_new_cate_left {
+                color: $text;
+                .link_hot_new_left {
+                    strong {
+                        color: $text;
+                    }
+                }
+            }
+            .more {
+                color: $text;
+            }
+            .news_tab_content {
+                .card {
+                    .title_hot_new_left {
+                        color: $text;
+                    }
+                }
+            }
+        }
+        #news {
+            .content_new_mobile {
+                p {
+                    color: $text;
+                    a {
+                        color: $text;
+                    }
+                }
+            }
+            .list-group-item {
+                background: $colorBackground;
+                .title_hot_new_left {
+                    color: $text;
+                }
+            }
+        }
+        #libraries {
+            .title_type {
+                color: $text;
+            }
+        }
+        .detail_library {
+            p,
+            div,
+            .title, 
+            .description {
+                color: $text;
+            }
+        }
+        .wrraped_forum {
+            .category_title {
+                color: $text;
+            }
+            .title_category_child {
+                a {
+                    color: $text;
+                }
+            }
+        }
+        .forum_topic {
+            color: $text;
+            .title {
+                a{
+                    color: $text;
+                }
+            }
+            .total_views,
+            .total_comment {
+                color: $text;
+            }
+        }
+        .forum_thread {
+            color: $text;
+            .text-secondary {
+                color: $text !important;
+            }
+            .commit_thread {
+                span {
+                    color: $text;
+                }
+            }
+        }
+        .wrraped_promotion {
+            color: $text;
+            .list-group-item {
+                margin-bottom: 5px;
+                background: $colorBackground;
+                button {
+                    background: unset;
+                    color: $text;
+                }
+            }
+        }
+        .wrraped_edit_survey {
+            color: $text;
+            .table {
+                tbody {
+                    tr {
+                        th {
+                            color: $text;
+                        }
+                    }
+                }
+            }
+        }
+        .wrraped_attendance,
+        #daily_training_mobile,
+        #detail-daily,
+        .wrraped_calendar,
+        .wrraped_approve_course {
+            color: $text;
+        }
+        .wrraped_daily_training {
+            .title_daily_video {
+                a {
+                    color: $text;
+                }
+            }
+        }
+        .wrraped_career_roadmap {
+            .list-group-item {
+                background: $colorBackground;
+            }
+        }
+        .wrraped_calendar {
+            a {
+                color: $text !important;
+            }
+        }
+    }
+    .text-muted {
+        color: $text !important;
+    }
+}

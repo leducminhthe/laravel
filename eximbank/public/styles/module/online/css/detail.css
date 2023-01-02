@@ -1,0 +1,54 @@
+.check_finish_activity {
+    text-align: center;
+}
+#nav-courses .accordion-header{
+    border: none;
+}
+#nav-courses .activityItem{
+    padding: 4px 0;
+    cursor: pointer;
+}
+#nav-courses .activityItem .link_activity{
+    display: block;
+}
+#nav-courses .line-active{
+    border-left: 5px solid green;
+}
+#nav-courses .line-active .activityItem{
+    color: rgb(0 0 0 / 80%) !important;
+    font-weight: 600;
+}
+.mw_4{
+    flex: 0 0 4%;
+    max-width: 4%;
+}
+.mw_96{
+    flex: 0 0 96%;
+    max-width: 96%;
+}
+.w_70{
+    width: 70%;
+}
+:not(:root):fullscreen::backdrop {
+    background: white !important;
+}
+.check_bookmark {
+    color: #0ef1f1;
+}
+@media (max-width: 475px) {
+    .iframe-embed {
+        height: 900px;
+    }
+
+    .show_activity {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title_activity {
+        width: 180px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

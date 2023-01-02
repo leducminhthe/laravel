@@ -1,0 +1,923 @@
+$nightModeBackground: #1b1c1d;
+$text: #eceef0;
+$textModal: #1b1c1d;
+.night-mode {
+    .bg_title {
+        background: white;
+    }
+    .card {
+        border: 1px solid #ffffffcc;
+        .card-header {
+            border-bottom: 1px solid #ffffffcc;
+            b {
+                color: $text !important;
+            }
+        }
+    }
+    .carousel {
+        a {
+            color: $text;
+        }
+    }
+    html,
+    body {
+        background-color: $nightModeBackground !important;
+        border-color: #242424 !important;
+        color: hsla(0, 0%, 100%, 0.79) !important;
+    }
+    .text-white {
+        color: #000 !important;
+    }
+    .header {
+        background: #242424;
+    }
+    .menu.dropdown_mn {
+        margin-top: 17px !important;
+        border-top: 1px solid #242424 !important;
+        border-radius: 3px !important;
+        min-width: 400px !important;
+        background: #171717 !important;
+    }
+    .menu.dropdown_account {
+        margin-top: 11px !important;
+        border-top: 1px solid #242424 !important;
+        border-radius: 3px !important;
+        background: #171717 !important;
+    }
+    .channel_my {
+        padding: 15px !important;
+        border-bottom: 1px solid #242424 !important;
+        min-width: 100%;
+        max-width: 100%;
+        white-space: normal;
+    }
+    // TIN TỨC
+    .wrapped_news_react {
+        .wrraped_content_new {
+            background: $nightModeBackground;
+        }
+        .breadcum  {
+            a {
+                color: $text;
+            }
+        }
+        .name_title_related_new,
+        .title_related_new {
+            span {
+                color: $text;
+            }
+        }
+        .title_new_cate,
+        .title_new_right,
+        .title_new_cate_first,
+        .time_view_new span,
+        .ant-tabs-tab-btn,
+        .time_view_get_news_category span,
+        .content_description_new p,
+        .content_description_new a,
+        .hot_new_title strong,
+        .time_view_new_right span {
+            color: $text !important;
+        }
+        .ant-pagination-item a {
+            color: #000 !important;
+        }
+        .body_news {
+            background: unset;
+            .new_with_category .hot_new {
+                background: unset;
+            }
+        }
+        .menu_new_insdie {
+            .dropdown-menu {
+                background: $nightModeBackground;
+            }
+        }
+    }
+    #all_course {
+        .filter_show img{
+            filter: brightness(0) invert(1);
+        }
+        .list_user_course, 
+        .progress_user_learn {
+            background: unset;
+            .progress2 {
+                border: 1px solid $text;
+            }
+        }
+        .list_user_course,
+        .progress_user {
+            span, strong {
+                color: $text !important;
+            }
+        }
+    }
+    #detail-video {
+        .opts_account p,
+        .st_title b {
+            color: $text !important;
+        }
+        .card {
+            background: unset;
+        }
+        .review_right_heading {
+            h6 {
+                color: $text;
+            }
+        }
+        .review_all120 {
+            background: $nightModeBackground;
+            h6 {
+                color: $text;
+            }
+        }
+        .wrraped_related_video {
+            h3 {
+                color: $text;
+            }
+        }
+    }
+    #survey_online {
+        .wrapped_all .wrapped_answer {
+            background: unset;
+        }
+    }
+    #detail_libraries {
+        .descriptipn_libraries p {
+            color: $text !important;
+        }
+    }
+    .wrapped_forum_react {
+        .forum-container b,
+        .forum-content p{
+            color: $text !important;
+        }
+        .topic-item {
+            border-bottom: unset;
+        }
+    }
+    .wrapped_situation_react {
+        .detail_situation,
+        .wrapped_situation {
+            background: unset;
+        }
+        .des_html p,
+        .situation_view_like_time li p{
+            color: $text !important;
+        }
+        .detail_situation {
+            .count_like {
+                color: black;
+            }
+        }
+        .all_topic {
+            .fcrse_1:hover {
+                background: unset !important;
+            }
+        } 
+    }
+    .calendar_body {
+        table {
+            background: $text;
+            a {
+                color: #000 !important;
+            }
+        }
+    }
+    .faq_body {
+        .card-body p{
+            color: $text;
+        }
+    }
+    .all_item_menu_backend {
+        .menu_child {
+            background: #333;
+        }
+    }
+    .all_item_menu_frontend {
+        .menu_child {
+            background: #333 !important;
+        }
+    }
+    .body_content_detail {
+        .tutor_name1,
+        .history_name,
+        .list-group span{
+            color: black !important;
+        }
+        .st_title strong {
+            color: $text !important;
+        }
+        .lesson-title {
+            b {
+                color: #333 !important;
+            }
+        }
+        .toggle_menu_left_close {
+            color: #333;
+        }
+        .btn {
+            color: #333;
+            i {
+                color: #333;
+            }
+        }
+        #btnMenuListActivity {
+            i {
+                color: $text;
+            }
+        }
+    }
+    .search_video_daily {
+        .wrapped_video_hot p,
+        .wrraped_search_video p {
+            color: $text !important;
+        }
+    }
+    .dropdown-notifications-content ul li:hover,
+    .notifications-not-read,
+    ul.dropdown-search-list .list-title,
+    ul.dropdown-search-list li a:hover,
+    .setting-menu ul li a:hover,
+    ul.dropdown-user-menu li a:hover,
+    .sidebar .sidebar_innr .sections li.active a,
+    .sidebar .sidebar_innr .sections li a:focus,
+    .sidebar .sidebar_innr .sections li.active a,
+    .sidebar .sidebar_innr .sections li.active a,
+    .contact-list:hover,
+    .bg-secondary-hover:hover,
+    .responsive-tab a span,
+    .event-info-date,
+    .post .post-state .post-state-btns:hover,
+    .post-new-type > a:hover,
+    .post-comment-text-inner,
+    .contact-list-box-btns .button,
+    .dropdown-user-details:before,
+    header .icon-browse .more-app,
+    .list-items:hover {
+        background-color: #191d2f !important;
+    }
+
+    .sidebar .sidebar_innr .sections:first-child {
+        padding-top: 12px;
+    }
+
+    header .head_search .head_search_cont input {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    header .head_search .head_search_cont input:focus {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .responsive-tab.style-4 .uk-active a:before,
+    .responsive-tab.style-2 .uk-active a:before,
+    .table-bordered thead th {
+        background: $text !important;
+    }
+
+    .photo-card,
+    .nav-single-group,
+    .post .post-state-details * img {
+        border-color: #08090f;
+    }
+    .btn-subscribe .button:before,
+    .post-comment-text::before {
+        border-right-color: #201f23;
+    }
+    .ibox-content,
+    .greedy-nav,
+    .greedy-nav a,
+    .left-menu-frontend,
+    .dropdown_menu_user .dropdown-menu {
+        background: $nightModeBackground !important;
+    }
+    .li_menu_sub:hover > .sub_menu,
+    #libary_menu:hover > .sub_menu,
+    #guide:hover > .sub_menu,
+    #report .card {
+        background: black !important;
+    }
+    a:hover {
+        color: $text !important;
+    }
+    .modal table td,
+    .pagination a,
+    .activityItem,
+    .select2-results__option,
+    .datepicker-days table td,
+    #myModal a,
+    .backend-container .inner div,
+    .backend-container .config-menu .list-group-item,
+    .backend-container .inner h3 {
+        color: black !important;
+    }
+
+    /* GIAO DIỆN HỌC VIÊN */
+    .wrapped_menu,
+    .menu_left_frontend .sub_menu_child,
+    .fcrse_2,
+    .menu_left_backend .sub_menu_child,
+    .bootstrap-table tbody tr {
+        background: $nightModeBackground !important;
+    }
+    #menu_child_1,
+    #menu_child_2,
+    #menu_child_3 {
+        background: unset !important;
+    }
+    .menu_left_frontend {
+        .total_time_learn {
+            background: $nightModeBackground;
+            h4 {
+                strong {
+                    color: $text !important;
+                }
+            }
+            p {
+                color: $text;
+            }
+        }
+        .button_wrapper_menu {
+            background: $nightModeBackground;
+        }
+    }
+    .body_frontend  {
+        background: $nightModeBackground !important;
+        .bootstrap-table tbody tr {
+            background: unset !important;
+        }
+        a {
+            h1,h2,h3,h4,h5,h6 {
+                color: $text !important;
+            }
+        }
+        h1,h2,h3,h4,h5,h6,strong,b {
+            color: $text !important;
+        }
+        .content_frontend {
+            .btn {
+                background: unset !important;
+                color: $text !important;
+            }
+        }
+        .all_item_menu_frontend_user {
+            .item_active {
+                border: 1px solid white;
+            }
+        }
+        .modal {
+            h1,h2,h3,h4,h5,h6,strong,b,label {
+                color: $textModal !important;
+            }
+            .btn {
+                color: $textModal !important;
+            }
+        }
+    }
+    .menu_left_backend img {
+        filter: brightness(0) invert(1);
+    }
+    .hot_public_title span,
+    .hot_new_title .link_hot_new_title h6 strong,
+    .hot_new_title_right h6 strong,
+    .link_title_main_new .title_main_new strong,
+    .link_hot_new_left .title_hot_new_left strong,
+    .title_cate_left strong,
+    .content_left .new_detail strong,
+    .text-black-50,
+    ._ttl123_custom,
+    .library-container .quantity > span,
+    .backend-container strong,
+    .pd_content p,
+    .pd_content span,
+    .option_links:hover,
+    .option_links:focus,
+    .menu--link,
+    .vdtodt,
+    .cr1fot,
+    .prce142,
+    .pd_content h6,
+    .crse14s,
+    .dropdown-content span,
+    .breadcrumb-item.active,
+    .ques_title,
+    .lbel25 label,
+    ._rate002,
+    .rpt100 span,
+    .dp_link_12,
+    .st_title,
+    .night_mode_switch__btn a,
+    .course_tabs .nav-tabs .nav-item.show .nav-link,
+    .course_tabs .nav-tabs .nav-link.active
+    .backend-container .products-list .product-title,
+    .dashboard_user .item_title strong {
+        color: $text !important;
+    }
+    .body_new_detail {
+        background: unset !important;
+    }
+    .backend-container .box,
+    .backend-container .box-footer,
+    #config_email .card,
+    .backend-container .products-list > .item {
+        background: #333 !important;
+    }
+    .ui.dropdown .menu > .channel_my:hover {
+        color: #fff !important;
+        background: #333 !important;
+    }
+    .vbm_btn {
+        width: 100%;
+        text-align: center;
+        float: left;
+        padding: 15px 0;
+        background: #ed2a26;
+        font-size: 14px;
+        color: #fff !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        &:hover {
+            background: #cc2622;
+            color: #fff !important;
+        }
+    }
+    .night_mode_switch__btn {
+        border-bottom: 1px solid #242424;
+        a i {
+            background-color: #333 !important;
+            color: $text !important;
+        }
+    }
+    .ui.dropdown .menu > .channel_item {
+        color: $text !important;
+        padding: 0.78571429rem 1.14285714rem !important;
+        font-size: 14px !important;
+        font-family: "Roboto", sans-serif;
+        &:hover {
+            color: #fff !important;
+            background: #333 !important;
+        }
+    }
+    .menu--link.active {
+        background: #12141e;
+        color: #fff;
+    }
+    .sub_menu--link:hover {
+        color: #fff !important;
+        background: #333;
+    }
+    .sub_menu--link.active {
+        color: #fff;
+        font-weight: 500;
+    }
+    .menu--link:hover {
+        color: #fff !important;
+    }
+    .left_section {
+        border-bottom: 1px solid #242424;
+    }
+    .fcrse_1 {
+        color: $text;
+        border: 1px solid #242424;
+        background: unset;
+    }
+    .dropdown-content {
+        background-color: #242424;
+        box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+        border: 1px solid rgba(25, 29, 47, 0.15);
+        span {
+            &:hover {
+                color: #fff !important;
+                background-color: #333;
+            }
+        }
+    }
+    .fcrse_2 {
+        border: 1px solid #242424;
+    }
+    .toggle_menu i {
+        background: #333;
+        color: #fff;
+    }
+    .course_tabs .nav-tabs .nav-link:hover {
+        color: #fff !important;
+    }
+    .srch_explore {
+        background: #333 !important;
+        border: 1px solid #242424 !important;
+        color: #787878 !important;
+        box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.3) !important;
+    }
+    ._215b15 {
+        background: #333;
+    }
+    .ttl121 .breadcrumb {
+        background-color: #333 !important;
+    }
+    .ui.selection.dropdown.cntry152 {
+        border: 1px solid #242424 !important;
+        box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.3) !important;
+        background: #333;
+    }
+    .ui.dropdown .menu {
+        background: #171717 !important;
+        border: 1px solid rgba(36, 36, 36, 0.15) !important;
+    }
+    .ui.selection.dropdown .menu > .item {
+        border-top: 1px solid #242424 !important;
+    }
+    .ui.selection.dropdown .menu > .item:hover,
+    .ui.selection.dropdown .menu > .item:focus {
+        background: #333 !important;
+        color: #fff !important;
+    }
+    .ui.dropdown .menu > .item {
+        color: $text !important;
+    }
+    .ui.dropdown .menu .selected.item,
+    .ui.dropdown.selected {
+        color: $text !important;
+    }
+    .ui.selection.cntry152.dropdown {
+        color: $text !important;
+    }
+    .ui.form.swdh30 textarea {
+        background: #333;
+        border: 1px solid #242424 !important;
+    }
+    .ui.form.swdh30 textarea:focus {
+        border: 1px solid #242424 !important;
+        box-shadow: none;
+        background: #fff;
+    }
+    .bp_left i {
+        color: #fff;
+    }
+    .bp_right i {
+        color: #fff;
+    }
+    ._byt1458 {
+        background: #242424 !important;
+    }
+    .accordion-header {
+        border: solid 1px #242424;
+        background: #333;
+        .section-title-text {
+            color: #fff;
+        }
+    }
+    .review_item {
+        border-bottom: 1px solid #242424;
+    }
+    ._215b01 {
+        background: #313131;
+    }
+    .ui.dropdown .menu > .item > .description,
+    .ui.dropdown > .text > .description {
+        float: right;
+        margin: 0 0 0 1em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .card_dash {
+        background: #333;
+        border: 1px solid #242424;
+    }
+    .cr1fot50,
+    .crsedt145,
+    ._rate001,
+    .crse-perf-left {
+        color: $text !important;
+    }
+    .table-responsive {
+        border: 1px solid #242424;
+    }
+    .promotion_tab {
+        background: #333;
+        border: 1px solid #242424;
+    }
+    .analysis_card {
+        background: #333 !important;
+        border: 1px solid #242424 !important;
+        .card-header {
+            background-color: #333 !important;
+            border-bottom: 1px solid #242424 !important;
+            h2 {
+                color: #fff !important;
+            }
+        }
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active {
+            color: #fff !important;
+            background-color: #333 !important;
+            border-color: transparent #242424 #333 !important;
+        }
+        .nav-link:hover {
+            color: #fff !important;
+            background-color: #333 !important;
+            border-color: transparent #242424 #333 !important;
+            border: 1px solid;
+        }
+        .card-footer {
+            border-top: 1px solid #242424 !important;
+        }
+    }
+    .nav-tabs {
+        border-bottom: 1px solid #242424;
+    }
+    .all_msg_bg {
+        background: $nightModeBackground;
+        border: 1px solid #242424;
+    }
+    .left_section:last-child {
+        border-bottom: 0;
+    }
+    .page-item.disabled .page-link {
+        color: #727272 !important;
+        background-color: #313131;
+        border-color: #333;
+    }
+    .bg-white {
+        background: $nightModeBackground !important;
+    }
+    .body_content_detail_offline {
+        .preview_video {
+            background: $nightModeBackground;
+        }
+        ._215b05 {
+            color: $text;
+            b {
+                color: $text !important;
+            }
+        }
+        .ibox-content {
+            span {
+                color: $text;
+            }
+        }
+        ._215b17 {
+            .body_course_offline {
+                background: $nightModeBackground;
+            }
+        } 
+        .reviews_left {
+            background: $nightModeBackground;
+            h3 {
+                color: $text;
+            }
+        }
+    }
+    #function-night-mode {
+        color: $text;
+        .icon {
+            color: black;
+        }
+    }
+    .ant-card {
+        background: $nightModeBackground;
+        border: unset;
+    }
+    .table-bordered td, .table-bordered th {
+        color: $text;
+    }
+    #training-by-title {
+        #tree-unit {
+            li {
+                a {
+                    color: $text !important;
+                    background-color: unset;
+                }
+            }
+        }
+    }
+    .dashboard_user {
+        .new_links10 {
+            color: $text;
+        }
+    }
+    #list-quiz {
+        .card {
+            background: $nightModeBackground;
+            p {
+                color: $text;
+            }
+            .card-footer {
+                .icon_timestop {
+                    img {
+                        filter: invert(1);
+                    }
+                }
+            }
+        }
+    }
+    .collapse_menu {
+        background: $nightModeBackground !important;
+    }
+    .body_backend {
+        .wrapped_box {
+            .small-box {
+                border: unset;
+            }
+        } 
+        .card {
+            background: $nightModeBackground;
+        }
+        .btn {
+            border: 1px solid $text;
+        }
+        .modal .btn {
+            border: 1px solid rgb(49, 47, 47);
+            color: rgb(49, 47, 47);
+        }
+    }
+    .fixed-table-body {
+        .fa-user {
+            color: $text;
+        }
+    }
+    .modal {
+        span {
+            color: #000;
+        }
+    }
+    .wrraped_body_backend {
+        .container_backend {
+            .bg_title {
+                background: unset;
+                color: $text !important;
+            }
+            .nav-stacked {
+                li {
+                    a {
+                        color: $text;
+                    }
+                }
+            }
+            #my-course {
+                .tab_crse {
+                    .nav-link {
+                        background: unset;
+                        img {
+                            filter: invert(1);
+                        }
+                    }
+                } 
+            } 
+        }
+        .dropdown-menu {
+            background: $nightModeBackground;
+            a {
+                color: $text !important;
+            }
+            svg {
+                fill: white;
+            }
+        }
+        .dropdown-item:hover {
+            background-color: #767676d4;
+        }
+        .modal {
+            label,div {
+                color: #333;
+            }
+            .nav-item {
+                a {
+                    color: #333 !important;
+                }
+            }
+        }
+        .bootstrap-table {
+            .a-color {
+                color: $text !important;
+            }
+            tbody {
+                tr {
+                    th {
+                        color: $text;
+                    }
+                }
+                td {
+                    p {
+                        color: $text;
+                    }
+                }
+            }
+        } 
+        .card-text {
+            color: $text;
+        }
+        #form_online_course .btn_link_online, #form_offline_course .btn_link_offline {
+            border: 1px solid white;
+            background: unset;
+        }
+        .nav-pills  {
+            .nav-link.active {
+                border: 1px solid white;
+            }
+        }
+    } 
+    .select2-results__option:hover {
+        color: white !important;
+    }
+    .select2-container--default .select2-results__option--highlighted[aria-selected] {
+        color: white !important;
+    }
+    #cost {
+        table {
+            tbody {
+                td {
+                    color: $text;
+                }
+            }
+        }
+    }
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        color: #333;
+    }
+    #list-category {
+        .list-group-item {
+            background: $nightModeBackground;
+            p {
+                color: $text;
+            }
+        }
+    }
+    .card-report {
+        .report-title {
+            color: $text;
+        }
+    } 
+    .list-quiz-question {
+        .custom-question {
+            color: #333;
+        }
+    }
+    #quiz-content {
+        .qtext {
+            p {
+                color: $text;
+                b {
+                    color: $text !important;
+                }
+            }
+        }
+    }
+    
+    .total_time_learn {
+        .icon_time {
+            img {
+                filter: invert(1);
+            }
+        }
+    }
+    .wrraped_my_carrer_roadmap {
+        .not {
+            .progress-bar {
+                color: #000;
+            }
+        }
+        .seniority_careers_roadmap,
+        .roadmap_name,
+        .title_name {
+            color: $text;
+        }
+    }
+    .progress2 {
+        .not {
+            color: #000;
+        }
+    }
+
+    //Hình chế độ night mode
+    .image_night_mode{
+        filter: brightness(0) invert(1);
+    }
+
+    .infomation_of_user {
+        background: #333 !important;
+    }
+
+    #survey_list {
+        .ant-card-head-title {
+            color: $text;
+        }
+        .ant-card-body {
+            p {
+                color: $text;
+            }
+        }
+        .img-choise {
+            filter: invert(1);
+        }
+    }
+
+    #rating_level {
+        .breadcrumb,
+        .card {
+            background: unset !important;
+        }
+        .image_choose {
+            filter: invert(1);
+        }
+    }
+}

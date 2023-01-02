@@ -1,0 +1,14 @@
+{
+    "name": "SyncTable",
+    "alias": "synctable",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SyncTable\\Providers\\SyncTableServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

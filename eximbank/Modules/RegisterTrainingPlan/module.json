@@ -1,0 +1,14 @@
+{
+    "name": "RegisterTrainingPlan",
+    "alias": "registertrainingplan",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\RegisterTrainingPlan\\Providers\\RegisterTrainingPlanServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

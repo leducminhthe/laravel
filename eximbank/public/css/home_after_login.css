@@ -1,0 +1,151 @@
+.duration-700 {
+    transition-duration: .7s;
+}
+.ease-in-out {
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.transition {
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+}
+.w-full {
+    width: 100%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.h-full {
+    height: 100%;
+}
+.flex {
+    -js-display: flex;
+    display: flex;
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+.bg-cover {
+    background-size: cover;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+.bg-center {
+    background-position: 50%;
+}
+.overlay {
+    position: relative;
+}
+
+.px-4 {
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+}
+
+.mb-8 {
+    margin-bottom: 0.5rem;
+}
+.h-lg {
+    height: 24rem;
+}
+
+.z-10 {
+    z-index: 1;
+}
+
+.relative {
+    position: relative;
+}
+.p-6 {
+    padding: 1.5rem;
+}
+.mt-auto {
+    margin-top: auto;
+}
+
+.text-white {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255,255,255,var(--text-opacity)) !important;
+}
+
+.overlay--half-blue:after {
+    background: linear-gradient(180deg,rgba(51,87,108,0),#33576c);
+    opacity: .8;
+}
+.overlay:after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 38%;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.view_detail,
+.view_detail_mobile_app{
+    display: none;
+    color: white;
+    width: fit-content;
+    font-size: initial;
+}
+
+.item-hover:hover .view_detail{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.item-hover:hover .view_detail_mobile_app{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.item-hover:hover .mt-auto{
+    margin-top: unset !important;
+    background: #2361af91;
+}
+
+.item-hover:hover .item-hover-center{
+    text-align: center;
+}
+
+.home_after_login .btn{
+    background: #fb5252 !important;
+    color: white !important;
+}
+.home_after_login .btn:hover{
+    background: #cb2027 !important;
+    color: white !important;
+}
+
+@media (min-width: 768px){
+    .md\:flex-wrap {
+        flex-wrap: wrap;
+    }
+    .md\:flex {
+        -js-display: flex;
+        display: flex;
+    }
+    .md\:w-1\/2 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px){
+    .lg\:w-1\/2 {
+        width: 50%;
+    }
+
+    .lg\:w-1\/3 {
+        width: 33.333333%;
+    }
+}

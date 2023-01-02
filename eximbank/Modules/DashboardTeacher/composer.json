@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/dashboardteacher",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\DashboardTeacher\\Providers\\DashboardTeacherServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\DashboardTeacher\\": ""
+        }
+    }
+}

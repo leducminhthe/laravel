@@ -1,0 +1,193 @@
+.image_topic_link .picture_topic {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.all_topic .fcrse_1:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: azure;
+  transition: 0.5s;
+}
+
+.fcrse_content .topic_name {
+  color: #1b4486;
+}
+.fcrse_content .topic_name:hover {
+  color: #8b1409;
+}
+
+.all_situations .wrapped_situation {
+  background: white;
+  border: 1px solid #1b4486;
+  margin-bottom: 2px;
+}
+.all_situations .wrapped_situation:hover {
+  transition: 0.5s;
+  background: space;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.all_situations .wrapped_situation .like_situation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all_situations .wrapped_situation .like_situation .like:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: aliceblue;
+  padding: 5px 8px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.all_situations .situation_name,
+.all_situations .situation_description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.all_situations .comment_like_view li {
+  float: left;
+  margin-right: 15px;
+}
+
+.detail_situation {
+  background: white;
+  padding: 15px 0px;
+}
+.detail_situation .wrapped_detail .situation_view_like_time li {
+  float: left;
+  margin-right: 20px;
+  list-style: disc;
+  list-style: none;
+}
+.detail_situation .wrapped_detail .situation_name {
+  clear: both;
+}
+.detail_situation .situation_description span {
+  border-bottom: 2px solid red;
+}
+.detail_situation .situation_description .des_html {
+  margin-top: 10px;
+  border: 1px solid #1b4486;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 150px;
+}
+
+.student_comment_situation {
+  margin-top: 20px;
+}
+.student_comment_situation .review_usr_dt ul li {
+  float: left;
+  margin-right: 15px;
+}
+.student_comment_situation .review_usr_dt .delete_comment {
+  margin-top: 5px;
+  margin-left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.student_comment_situation .review_usr_dt .delete_comment i {
+  cursor: pointer;
+}
+.student_comment_situation .review_usr_dt:hover .delete_comment {
+  transition: all 0.2s ease-in-out;
+  visibility: visible;
+  opacity: 1;
+}
+.student_comment_situation .comment_situation {
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  padding: 5px;
+  word-break: break-all;
+  background: white;
+}
+.student_comment_situation .comment_situation .edit_delete {
+  display: flex;
+  justify-content: flex-end;
+}
+.student_comment_situation .comment_situation .form_reply_comment {
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.student_comment_situation .all_reply .info_user_reply {
+  display: flex;
+  margin-top: 10px;
+}
+.student_comment_situation .all_reply .info_user_reply img {
+  border-radius: 100%;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.student_comment_situation .all_reply .get_reply_comment {
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  padding: 5px;
+  word-break: break-all;
+  margin: 5px 0px;
+  background: white;
+}
+.student_comment_situation .all_reply .get_reply_comment p {
+  padding-left: 10px;
+}
+.student_comment_situation .rv1458 {
+  position: relative;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  border-radius: 20px;
+  background: whitesmoke;
+  max-width: 90%;
+}
+.student_comment_situation .rv1458 .name_user_comment {
+  font-weight: 550;
+  margin-bottom: 0;
+}
+.student_comment_situation .rv1458 .content_user_comment {
+  word-break: break-all;
+}
+.student_comment_situation .rv1458 .show_like {
+  position: absolute;
+  right: -34px;
+  bottom: 5px;
+  padding: 0px 4px;
+  background: white;
+  border: 1px solid rgb(221, 242, 243);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.student_comment_situation .rv1458 .show_like .thumb_like {
+  color: white;
+  background: blue;
+  border-radius: 100%;
+  padding: 2px 2px;
+  margin-right: 3px;
+}
+.student_comment_situation .set_comment {
+  margin-left: 70px;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.student_comment_situation .set_comment .like_comment:hover,
+.student_comment_situation .set_comment .reply_comment:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.student_comment_situation .user_comment {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid powderblue;
+  margin-bottom: 10px;
+}
+.student_comment_situation .avartar_user_comment {
+  border-radius: 100%;
+}
+.student_comment_situation .user_reply_comment {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.color_blue {
+  color: blue;
+}

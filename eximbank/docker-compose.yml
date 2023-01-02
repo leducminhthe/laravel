@@ -1,0 +1,63 @@
+version: "3"
+services:
+  lms:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    image: lms2022
+    container_name: projectlms
+    env_file:
+      - ./.env
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - seccomp:unconfined
+    working_dir: /var/www/html
+    ports:
+      - "8080:80"
+      - "2200:22"
+    restart: on-failure
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    links:
+      - mariadb
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+      - ./:/var/www/html:rw
+      - ./docker/php/local.conf:/etc/nginx/sites-available/local.conf
+      - ./docker/php/php.ini:/etc/php.ini
+      - ./docker/httpd:/var/log/httpd
+      - ./docker/nginx:/var/log/nginx
+      - ./docker/php-fpm:/var/log/php-fpm
+      - ../datafile:/var/www/datafile
+    networks:
+      - app-network
+  mariadb:
+    image: mariadb
+    container_name: mariadb
+    restart: unless-stopped
+    ports:
+      - '3306:3306'
+    environment:
+   #   - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_USER=${DB_USERNAME}
+      - MARIADB_DATABASE=${DB_DATABASE}
+      - MARIADB_PASSWORD=${DB_PASSWORD}
+      - MARIADB_ROOT_PASSWORD=12345678
+   # volumes:
+    #  - './data:/var/lib/mysql'
+    networks:
+      - app-network
+    healthcheck:
+      test: "exit 0"
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 3309:8080
+    networks:
+      - app-network
+networks:
+ app-network:
+  driver: bridge

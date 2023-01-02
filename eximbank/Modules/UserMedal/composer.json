@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/usermedal",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\UserMedal\\Providers\\UserMedalServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\UserMedal\\": ""
+        }
+    }
+}

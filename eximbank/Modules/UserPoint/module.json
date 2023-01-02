@@ -1,0 +1,14 @@
+{
+    "name": "UserPoint",
+    "alias": "userpoint",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\UserPoint\\Providers\\UserPointServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

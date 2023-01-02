@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/userpoint",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\UserPoint\\Providers\\UserPointServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\UserPoint\\": ""
+        }
+    }
+}
